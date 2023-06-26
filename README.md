@@ -13,8 +13,8 @@
   Модель может сохранять видео mp4 c сигареты или делать детекцию со стрима и др источников.        
   -- sourse        
    0                                           # webcam           
-img.jpg                                    # image        
-vid.mp4                                    # video          
+img.jpg   # image        
+vid.mp4   video          
 screen                                    # screenshot          
  path/                                     # directory           
 list.txt                                 # list of images           
