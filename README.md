@@ -10,17 +10,18 @@
 7. Подготовлен скрип install.py для клона репозитария yolov5, установки необходимых библиотек и подгрузки обученных весов с облачного хранилища.
 И сприпт detector.py который выполняет задачи согласно требования задания.
 8. Для реализовать запуск mp4 и одновременно детекции необходимо запускать стрим видео и тогда будет возможность в прямомо эфире детектировать.
-  Модель может сохранять видео mp4 c сигареты или делать детекцию со стрима и др источников.      
-                                                    0                                # webcam           
-                                                     img.jpg                         # image        
-                                                     vid.mp4                         # video          
-                                                     screen                          # screenshot          
-                                                     path/                           # directory           
-                                                     list.txt                        # list of images           
-                                                     list.streams                    # list of streams           
-                                                     'path/*.jpg'                    # glob            
-                                                     'https://youtu.be/Zgi9g1ksQHc'  # YouTube          
-                                                     'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream               
+  Модель может сохранять видео mp4 c сигареты или делать детекцию со стрима и др источников.
+  -- sourse
+   0                                 # webcam           
+img.jpg                          # image        
+vid.mp4                          # video          
+screen                           # screenshot          
+ path/                            # directory           
+list.txt                         # list of images           
+list.streams                     # list of streams           
+'path/*.jpg'                     # glob            
+'https://youtu.be/Zgi9g1ksQHc'   # YouTube          
+'rtsp://example.com/media.mp4'   # RTSP, RTMP, HTTP stream               
 
 Инструция по применению:       
 1. скачать install.py и detector.py        
