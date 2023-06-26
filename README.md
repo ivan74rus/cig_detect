@@ -21,3 +21,4 @@
 
 
 
+![image](https://github.com/ivan74rus/cig_detect/assets/117063726/2d400955-55f4-491c-b2ca-9bec758292f9)
