@@ -9,6 +9,18 @@
 - GPU для более долго обучения, необходимо около 300 эпох миниум
 7. Подготовлен скрип install.py для клона репозитария yolov5, установки необходимых библиотек и подгрузки обученных весов с облачного хранилища.
 И сприпт detector.py который выполняет задачи согласно требования задания.
+8. Для реализовать запуск mp4 и одновременно детекции необходимо запускать стрим видео и тогда будет возможность в прямомо эфире детектировать.
+  Модель может сохранять видео mp4 c сигареты или делать детекцию со стрима и др источников.
+                                                    0                                # webcam
+                                                     img.jpg                         # image
+                                                     vid.mp4                         # video
+                                                     screen                          # screenshot
+                                                     path/                           # directory
+                                                     list.txt                        # list of images
+                                                     list.streams                    # list of streams
+                                                     'path/*.jpg'                    # glob
+                                                     'https://youtu.be/Zgi9g1ksQHc'  # YouTube
+                                                     'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
 
 Инструция по применению:       
 1. скачать install.py и detector.py        
@@ -16,4 +28,4 @@
 3. запустить detector.py  который выполняет деткцию фото, видео,  и сохраянет в текущию папку/ так же можно детактировать на потоковом видео utube,webcam, stream 
 
 
-![image](https://github.com/ivan74rus/cig_detect/assets/117063726/c5b4c181-f610-42a4-9c37-6ff9b0f15671)
+
