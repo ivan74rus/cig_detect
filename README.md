@@ -15,10 +15,10 @@
 0     #webcam , img.jpg , vid.mp4 ,  screen ,  path/  , list.txt , list.streams , 'path/*.jpg' , 'https://youtu.be/Zgi9g1ksQHc' ,'rtsp://example.com/media.mp4'                           
 
 Инструция по применению:       
-1. скачать install.py и detector.py        
+1. скачать install.py       
 2. запустить install.py выполнится клон репозитария yolov5, скачивание весов деткции сигарет в текущию папку.     
-3. запустить detector.py  который выполняет деткцию фото, видео,  и сохр в текущию папку/ так же можно детактировать на потоковом видео utube,webcam, stream 
+3. Скачать /Скопировать  detector.py  в папку yolov5 и запускать  python3 detector --sourse 0001.jpg 
 
 
 
-![image](https://github.com/ivan74rus/cig_detect/assets/117063726/2d400955-55f4-491c-b2ca-9bec758292f9)
+
