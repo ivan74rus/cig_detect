@@ -12,21 +12,12 @@
 8. Для реализовать запуск mp4 и одновременно детекции необходимо запускать стрим видео и тогда будет возможность в прямомо эфире детектировать.
   Модель может сохранять видео mp4 c сигареты или делать детекцию со стрима и др источников.        
   -- sourse        
-0     #webcam    
-img.jpg          
-vid.mp4         
-screen                                          
- path/                                          
-list.txt                                         
-list.streams                                   
-'path/*.jpg'                                     
-'https://youtu.be/Zgi9g1ksQHc'                    
-'rtsp://example.com/media.mp4'                           
+0     #webcam , img.jpg , vid.mp4 ,  screen ,  path/  , list.txt , list.streams , 'path/*.jpg' , 'https://youtu.be/Zgi9g1ksQHc' ,'rtsp://example.com/media.mp4'                           
 
 Инструция по применению:       
 1. скачать install.py и detector.py        
 2. запустить install.py выполнится клон репозитария yolov5, скачивание весов деткции сигарет в текущию папку.     
-3. запустить detector.py  который выполняет деткцию фото, видео,  и сохраянет в текущию папку/ так же можно детактировать на потоковом видео utube,webcam, stream 
+3. запустить detector.py  который выполняет деткцию фото, видео,  и сохр в текущию папку/ так же можно детактировать на потоковом видео utube,webcam, stream 
 
 
 
